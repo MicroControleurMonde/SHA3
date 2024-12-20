@@ -1,2 +1,4 @@
 # SHA3
-Implementation of SHA3 code with MicroPython
+Implementation of crypto. code with MicroPython
+
+- Keccak-p[1600] [link]
