@@ -1,4 +1,6 @@
 # keccak_p1600.py
+# Ported from XKCP code
+# github.com/XKCP/XKCP
 from machine import mem32
 
 # Constantes
