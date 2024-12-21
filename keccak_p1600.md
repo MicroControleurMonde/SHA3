@@ -1,5 +1,7 @@
 This Micro-python code implements the **Keccak-p[1600]** cryptographic permutation function.
 
+The original source code can be found here: [XKCP](https://github.com/XKCP/XKCP)
+
 ### Purpose:
 This code provides an implementation of the Keccak-p[1600] permutation, which can be used as a foundation for creating hash functions like SHA-3. 
 
