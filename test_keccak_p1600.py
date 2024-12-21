@@ -1,4 +1,6 @@
-# Import the Keccak-p[1600] cryptographic hash function  
+# Import the Keccak-p[1600] cryptographic hash function 
+# Ported from XKCP code
+# github.com/XKCP/XKCP
 import keccakp1600
 
 # Request a string as input from the user
