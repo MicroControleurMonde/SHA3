@@ -13,7 +13,8 @@ Implementation of crypto code with MicroPython
 ## SHA3
 
 - **SHA3 library** [`libsha3.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3.py)
-- **Library testing for SHA3 fonctions** (SHA3-224 / SHA3-256 / SHA3-384 / SHA3-512) using NIST tests vectors [`libsha3_vectors_sha_test.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_vectors_sha_test.py)
-- **Library testing for SHAKE fonctions** (SHAKE128 / SHAKE256) ) using NIST tests vectors [`libsha3_vectors_shake_tests.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_vectors_shake_tests.py)
+- **SHA3 Test code** [libsha3_simple_test.py](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_simple_test.py)
+- **Library vectors testing for SHA3 fonctions** (SHA3-224 / SHA3-256 / SHA3-384 / SHA3-512) [`libsha3_vectors_sha_test.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_vectors_sha_test.py)
+- **Library vectors testing for SHAKE fonctions** (SHAKE128 / SHAKE256) ) [`libsha3_vectors_shake_tests.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_vectors_shake_tests.py)
 - **Documentation**
 - **Reference code** in pure Python given by Keccak Team [`CompactFIPS202_XKCP_Ref_Code.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/CompactFIPS202_XKCP_Ref_Code.py)
