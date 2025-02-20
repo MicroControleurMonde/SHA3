@@ -24,7 +24,7 @@ The library implements the following fixed size hash fonctions: **SHA3-224**, **
 NIST tests vector (FIPS 202) (https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/secure-hashing#sha3vsha3vss)
   
 - **Library vectors testing for SHA3 fonctions** [`libsha3_vectors_sha_test.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_vectors_sha_test.py)
-- **Library vectors testing for SHAKE fonctions** (SHAKE128 / SHAKE256) ) [`libsha3_vectors_shake_tests.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_vectors_shake_tests.py)
+- **Library vectors testing for SHAKE fonctions** [`libsha3_vectors_shake_tests.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_vectors_shake_tests.py)
 
 [XKCP Original code](https://github.com/XKCP/XKCP/tree/master/Standalone/CompactFIPS202/Python)
 - **Reference code** in pure Python given by Keccak Team [`CompactFIPS202_XKCP_Ref_Code.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/CompactFIPS202_XKCP_Ref_Code.py) {without Numpy}
