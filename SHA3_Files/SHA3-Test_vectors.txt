@@ -1,0 +1,45 @@
+NIST test vectors for SHA3 in text mode:
+
+## SHA3-224
+
+Empty message :
+Input : ‘’
+Output: 6b4e03423667dbb7 3b6e15454f0eb1ab d4597f9a1b078e3f 5b5a6bc7
+
+Message ‘abc’ :
+Input : ‘abc’
+Output : e642824c3f8cf24a d09234ee7d3c766f c9a3a5168d0c94ad 73b46fdf
+
+Message ‘abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq’ :
+Input : ‘abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq’
+Output : 8a24108b154ada21 c9fd5574494479ba 5c7e7ab76ef264ea d0fcce33
+
+## SHA3-256
+
+Empty message :
+Input : ‘’
+Output: a7ffc6f8bf1ed766 51c14756a061d662 f580ff4de43b49fa 82d80a4b80f8434a
+
+Message ‘abc’ :
+Input : ‘abc’
+Output: 3a985da74fe225b2 045c172d6bd390bd 855f086e3e9d525b 46bfe24511431532
+
+Message ‘abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq’ :
+Input : ‘abcdbcdecdefdefgefghghighijhijkijkljklmklmnlmnomnopnopq’
+Output : 41c0dba2a9d62408 49100376a8235e2c 82e1b9998a999e21 db32dd97496d3376
+
+## SHA3-384
+
+Empty message :
+Input : ‘’
+Output: 0c63a75b845e4f7d 01107d852e4c2485 c51a50aaaa94fc61 995e71bbee983a2a c3713831264adb47 fb6bd1e058d5f004
+
+Message ‘abc’ :
+Input : ‘abc’
+Output : ec01498288516fc9 26459f58e2c6ad8d f9b473cb0fc08c25 96da7cf0e49be4b2 98d88cea927ac7f5 39f1edf228376d25
+
+Message ‘abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq’ :
+Input : ‘abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq’
+Output : 991c665755eb3a4b 6bbbdfb75c78a492e 8c56a22c5c4d7e42 9bbfdbc32b9d4ad5a a04a1f076e62fea1 9eef51acd0657c22
+
+Translated with DeepL.com (free version)
