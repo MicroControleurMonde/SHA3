@@ -8,6 +8,9 @@ The SHA-3 (Secure Hash Algorithm 3) and SHAKE functions are cryptographic hashin
 
 The library implements the following fixed size hash fonctions: **SHA3-224**, **SHA3-256**, **SHA3-384**, **SHA3-512** and **SHAKE128**, **SHAKE256** the  for variable size hashes.
 
+The code was developed and tested on RP2350.
+It is compatible with RP2040 / ESP32
+
 ## Keccak-p1600
 
 - **Keccak-p[1600] library** [`keccakp1600.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/keccakp1600.py)
