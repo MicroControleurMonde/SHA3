@@ -24,7 +24,7 @@ It is compatible with RP2040 / ESP32
 - **Documentation** [`SHA3 Library Documentation.md`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/SHA3%20Library%20Documentation.md)
 
 
-NIST tests vector (FIPS 202) (https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/secure-hashing#sha3vsha3vss)
+NIST test vectors (FIPS 202) (https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/secure-hashing#sha3vsha3vss)
   
 - **Library vectors testing for SHA3 fonctions** [`libsha3_vectors_sha_test.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_vectors_sha_test.py)
 - **Library vectors testing for SHAKE fonctions** [`libsha3_vectors_shake_tests.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_vectors_shake_tests.py)
