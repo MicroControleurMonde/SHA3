@@ -31,3 +31,6 @@ NIST tests vector (FIPS 202) (https://csrc.nist.gov/projects/cryptographic-algor
 
 [XKCP Original code](https://github.com/XKCP/XKCP/tree/master/Standalone/CompactFIPS202/Python)
 - **Reference code** in pure Python given by Keccak Team [`CompactFIPS202_XKCP_Ref_Code.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/CompactFIPS202_XKCP_Ref_Code.py) {without Numpy}
+---
+Useful link for hashing, encoding, decoding, encryption, decryption, formatting, generating and so on...
+[Online Tools](https://emn178.github.io/online-tools/)
