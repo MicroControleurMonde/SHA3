@@ -7,11 +7,11 @@ def test_sha3_function(sha3_function, test_vectors):
         input_bytes = bytearray(test["input"], 'utf-8')
         expected_output = test["expected"]
         
-        # Calculer le hachage
+        # Calculate the hash
         hashed_output = sha3_function(input_bytes)
         hashed_hex = libsha3.bytes_to_hex(hashed_output).replace(" ", "").lower()
         
-        # Afficher le résultat du test
+        # Display the test result
         if hashed_hex == expected_output:
             print(f"Passed test for entry '{test['input']}': {hashed_hex}")
         else:
@@ -31,7 +31,7 @@ sha3_256_test_vectors = [
     {"input": "abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq", "expected": "41c0dba2a9d6240849100376a8235e2c82e1b9998a999e21db32dd97496d3376"}
 ]
 
-# Vecteurs de test pour SHA3-384
+# Test vectors for SHA3-384
 sha3_384_test_vectors = [
     {"input": "", "expected": "0c63a75b845e4f7d01107d852e4c2485c51a50aaaa94fc61995e71bbee983a2ac3713831264adb47fb6bd1e058d5f004"},
     {"input": "abc", "expected": "ec01498288516fc926459f58e2c6ad8df9b473cb0fc08c2596da7cf0e49be4b298d88cea927ac7f539f1edf228376d25"},
