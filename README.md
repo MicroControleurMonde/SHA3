@@ -2,7 +2,11 @@
 
 ![image](https://github.com/user-attachments/assets/d23da5d7-1ce4-4f79-a960-7c93ea75acd0)
 
-Implementation of crypto code with MicroPython
+## Implementation of crypto code with MicroPython
+
+The SHA-3 (Secure Hash Algorithm 3) and SHAKE functions are cryptographic hashing algorithms that are part of the SHA-3 family, standardized by the National Institute of Standards and Technology (NIST).
+
+The library implements the following fixed size hash fonctions: **SHA3-224**, **SHA3-256**, **SHA3-384**, **SHA3-512** and **SHAKE128**, **SHAKE256** the  for variable size hashes.
 
 ## Keccak-p1600
 
@@ -13,8 +17,8 @@ Implementation of crypto code with MicroPython
 ## SHA3
 
 - **SHA3 library** [`libsha3.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3.py)
-- **SHA3 Test code** [libsha3_simple_test.py](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_simple_test.py)
+- **SHA3 Test code** [`libsha3_simple_test.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_simple_test.py)
 - **Library vectors testing for SHA3 fonctions** [`libsha3_vectors_sha_test.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_vectors_sha_test.py)
 - **Library vectors testing for SHAKE fonctions** (SHAKE128 / SHAKE256) ) [`libsha3_vectors_shake_tests.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/libsha3_vectors_shake_tests.py)
-- **Documentation** [SHA3 Library Documentation.md](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/SHA3%20Library%20Documentation.md)
+- **Documentation** [`SHA3 Library Documentation.md`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/SHA3%20Library%20Documentation.md)
 - **Reference code** in pure Python given by Keccak Team [`CompactFIPS202_XKCP_Ref_Code.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/SHA3_Files/CompactFIPS202_XKCP_Ref_Code.py)
