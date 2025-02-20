@@ -13,8 +13,8 @@ It is compatible with RP2040 / ESP32
 
 ## Keccak-p1600
 
-- **Keccak-p[1600] library** [`keccakp1600.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/keccakp1600.py)
-- **library testing** [`test_keccak_p1600.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/test_keccak_p1600.py`)
+- **Keccak-p[1600] library** [`keccakp1600.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/Keccak/keccakp1600.py)
+- **library testing** [`test_keccak_p1600.py`](https://github.com/MicroControleurMonde/SHA3/blob/main/Keccak/test_keccak_p1600.py)
 - **Documentation**[`Keccak-p[1600]`](https://github.com/MicroControleurMonde/SHA3/blob/main/Keccak/keccak_p1600.md)
 
 ## SHA3
