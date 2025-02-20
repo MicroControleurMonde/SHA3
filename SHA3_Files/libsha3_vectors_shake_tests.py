@@ -1,6 +1,6 @@
 import libsha3
 
-# Fonction pour tester SHAKE128
+# Function to test SHAKE128
 def test_shake128():
     print("\nSHAKE 128")
     test_cases = [
@@ -12,11 +12,11 @@ def test_shake128():
         input_bytes = bytearray(case["msg"], 'utf-8')
         output = libsha3.SHAKE128(input_bytes, case["length"])
         output_hex = libsha3.bytes_to_hex(output)
-        print(f"Test pour '{case['msg']}': {output_hex}")
-        assert output_hex == case["expected"], f"Échec pour {case['msg']}: {output_hex} (attendu {case['expected']})"
-        print(f"Test réussi pour {case['msg']}")
+        print(f"Test for '{case['msg']}': {output_hex}")
+        assert output_hex == case["expected"], f"Failure for {case['msg']}: {output_hex} (expected {case['expected']})"
+        print(f"Successful test for: {case['msg']}")
 
-# Fonction pour tester SHAKE256
+# # Function to test SHAKE256
 def test_shake256():
     print("\nSHAKE 256")
     test_cases = [
@@ -28,9 +28,9 @@ def test_shake256():
         input_bytes = bytearray(case["msg"], 'utf-8')
         output = libsha3.SHAKE256(input_bytes, case["length"])
         output_hex = libsha3.bytes_to_hex(output)
-        print(f"Test pour '{case['msg']}': {output_hex}")
-        assert output_hex == case["expected"], f"Échec pour {case['msg']}: {output_hex} (attendu {case['expected']})"
-        print(f"Test réussi pour: {case['msg']}")
+        print(f"Test for'{case['msg']}': {output_hex}")
+        assert output_hex == case["expected"], f"Failure for {case['msg']}: {output_hex} (expected {case['expected']})"
+        print(f"Successful test for: {case['msg']}")
 
 # Exécution des tests
 test_shake128()
